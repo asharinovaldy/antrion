@@ -1,0 +1,178 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.nav-item {
+    margin-left: 59px;
+}
+
+.header {
+    margin-top: 38px;
+    background-color: #FAFAFA;
+    width: 1100px;
+    height: 500px;
+    border-radius: 30px;
+}
+
+.banner {
+    width: 600px;
+    height: 500px;
+    float: right;
+}
+
+.text-header {
+    margin-left: 47px;
+    position: absolute;
+    margin-top: 195px;
+    color: #1185F0;
+    transform: translate(-50px, 0);
+    opacity: 0;
+}
+
+.text-header.header-landing {
+    opacity: 1;
+    transform: translate(0,0);
+    transition: 2s;
+}
+
+.text-header h3 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.paragraph {
+    font-size: 24px;
+}
+
+.btn-start {
+    font-size: 20px;
+    background-color: #1185F0;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    width: 100px;
+    height: 40px;
+}
+
+.services {
+    margin-top: 67px;
+    align-items: center;
+}
+
+.services-header h2 {
+    font-weight: bold;
+    color: #1185F0;
+    font-size: 48px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.services-header p {
+    font-size: 28px;
+    color: #1185F0;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+
+.card-services {
+    margin-top: 47px;
+    opacity: 0;
+    transition: .5s;
+    transform: translate(0,70px);
+}
+
+.services .card-services.landing {
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+.card-title {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.available {
+    color: #158B28;
+}
+
+.unavailable {
+    color: #E70E0E;
+}
+
+.btn-get {
+    font-size: 16px;
+    text-transform: uppercase;
+    background-color: #0E5BA3;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    color: whitesmoke;
+}
+
+.btn:hover {
+   color: whitesmoke !important;
+   text-decoration: none;
+}
+
+.btn-disabled {
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.note {
+    margin-top: 35px;
+    font-size: 20px;
+}
+
+.thankful {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 88px;
+    opacity: 0;
+    transform: translate(50px, 0);
+}
+
+.thankful.thankful-landing {
+    opacity: 1;
+    transform: translate(0,0);
+    transition: 1s;
+}
+
+
+#maps {
+    width: 100%;
+    height: 372px;
+    margin-top: 137px;
+}
+
+.contact {
+    margin-top: 40px;
+}
+
+.contact h2 {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.contact h3 {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.footer {
+    margin-top: 55px;
+    width: 100%;
+    height: 72px;
+    background-color: #1185F0;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 16px;
+}
